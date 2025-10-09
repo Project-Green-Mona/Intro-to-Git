@@ -16,7 +16,12 @@ struct TeamMember : Identifiable {
 
 let teamMembers = [
     TeamMember(name: "Habram Alcantar", role: "SWE Team", imageName: "habram_profile_pic"),
+<<<<<<< HEAD
     TeamMember(name: "Nick Burleson", role: "SWE Team", imageName: "ProfilepicNick"),
+=======
+    TeamMember(name: "Franklin Rigoutsos", role: "SWE Team", imageName: "franklin_profile_pic"),
+    TeamMember(name: "Amy Shao", role: "SWE Team", imageName: "amy_profile_pic")
+>>>>>>> 6f59186362ba7007f83d3e902169609f906feec7
 ]
 
 struct ContentView: View {
